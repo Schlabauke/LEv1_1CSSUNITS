@@ -1,0 +1,65 @@
+/* Verwende die Maßeinheit "cm" anstelle von "px"
+Section hat die Werte Border und Border Radius
+<h2> hat die Werte Font Size 15 mm, Text Shadow 1.5 mm 1.5 mm, Font Family Helvetica und Background Color
+Das HTML-Element p hat eine Schriftgröße von 7 mm
+Die drei aufeinanderfolgenden Listen bekommen jeweils folgende Werte: font-size 
+0.7 cm, 1 cm und 1.2 cm
+ */
+ *{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ section {
+     border:0.09cm solid grey;
+     border-radius: 0.4cm;
+     padding: 0.02cm 0 1.5cm;
+ }
+ section h2 {
+     font-size:14mm;
+     text-shadow: black  1.5mm 1.5mm;
+     font-family: Helvetica, sans-serif;
+     background-color: grey;
+     color:#fff;
+     text-align: center;
+     margin-bottom: 1.2cm;
+     
+ }
+ article{
+     border: 0.2cm solid black;
+     border-radius:0.5cm;
+     text-align: center;
+     margin:0 1.5cm;
+     padding: 1cm;
+     background-color: darkgray;
+
+ }
+section article p {
+    font-size: 7mm;
+    text-align: center;
+}
+section article ul {
+    text-align: left;
+    list-style-position: inside;
+    margin: 0.5cm 0 1cm;
+    padding: 0.2cm;
+
+}
+section article ul li:first-of-type{
+    font-size: 0.7cm;
+    background-color: #fff;
+
+}
+section article ul li:nth-of-type(2){
+    font-size: 1cm;
+}
+section article ul li:nth-of-type(3){
+    font-size: 1.2cm;
+    background-color: #fff;
+}
+h3 {
+    color:#fff;
+    text-align: left;
+    font-size: 1.5cm ;
+}
